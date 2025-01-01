@@ -103,7 +103,6 @@
 
 'use client';
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 
 import ProductCard from './ProductCart';
 import Product from '@/pages/types';
@@ -113,7 +112,6 @@ const MenuItems = () => {
   const [cart, setCart] = useState<Product[]>([]);
   const [showCart, setShowCart] = useState(false);
   const [isCheckout, setIsCheckout] = useState(false);
-  const router = useRouter();
 
   useEffect(() => {
     async function fetchProducts() {
