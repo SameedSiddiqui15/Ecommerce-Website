@@ -4,7 +4,7 @@ import { FaBolt, FaRunning, FaSearch, FaShoppingCart } from "react-icons/fa";
 export default function Navbar() {
     return (
         <div className="grid xl:grid-cols-1 grid-cols-1">
-            <div className="p-5">
+            <div className="xl:container xl:mx-auto xl:py-5 py-5 px-5">
                 <div className="py-3 px-3 rounded-xl border w-full">
                     <div className="flex justify-between items-center">
                         <div className="flex justify-items-center items-center gap-2">
@@ -23,7 +23,7 @@ export default function Navbar() {
                         
                         
                         <FaShoppingCart className="ring-sky-400 hover:ring-amber-400 inline-block p-1.5 w-8 h-8 rounded-full ring-1 text-amber-400 hover:text-sky-400"/>
-                        <img src="https://i.pinimg.com/originals/bc/57/ca/bc57cac3d5d69c092ac1477188b717de.jpg" alt="avatar" className="ring-amber-400 hover:ring-sky-400 inline-block w-8 h-8 rounded-full ring-1 text-sky-400 hover:text-amber-400"/>
+                        <img src="https://sameed-dynamic-blog.vercel.app/images/myProfilePic.jpg" alt="avatar" className="ring-amber-400 hover:ring-sky-400 inline-block w-8 h-8 rounded-full ring-1 text-sky-400 hover:text-amber-400 object-cover object-top"/>
                         </div>
                     </div>
                 </div>
